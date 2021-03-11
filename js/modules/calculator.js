@@ -1,6 +1,7 @@
 // ADD A PRIVATE FUNCTION CALLED CALCULATE
-const calculate = (x,y) => {
-}
+(function calculate() {
+    'use strict';
+}) ();
 
 // ADD FOUR PUBLIC FUNCTIONS BELOW
 // ADD FUNCTION
