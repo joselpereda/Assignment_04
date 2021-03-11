@@ -1,4 +1,4 @@
-// //STEP 1
+//STEP 1
 // function halfNumber(numToHalf) {
 //     return `Half of ${numToHalf} is ${numToHalf/2}.`;
 // }
@@ -23,21 +23,22 @@
 // console.log(findModulus(7,3));
 
 //STEP 5
-function f (a) { // can include names still, if desired
-    // arguments instance of Array -> false (exceptions to this?)
-    var firstArg = arguments[0]
-    let total = 0
-    // a === firstArg -> always true
-    // iterate all arguments, just as if it were an Array:
-    for (var i = 0; i < firstArg.length; i++) {
-        //alert(arguments[i]);
-        //let total = 0;
-        total += parseInt(firstArg[i]);
-        console.log(total); 
-    }
-    //const sum =  arr.reduce((result,number)=> result+number);
-    return `The sum of all the numbers is ${total}`;
+// function totalSum (srcArray) {
 
-}
-let userInput = prompt("Enter a set of number seperated by commas: ");
-f(userInput);
+//     let i = 0;                  // While loop counter
+//     let total = 0;              // To store sum of integers entered
+//     let n = srcArray.length;    // Find the array length
+
+//     // Cycle through the array and sum all of its elements
+//     while (i < n)
+//     {
+//         total += Number(srcArray[i]);
+//         i++;
+//     }
+//     return total;               // Return the total sum
+//     }
+// // Prompt the user to enter any given number of integers, seperated by commas
+// let userInput = prompt("Enter a set of number seperated by commas: ");
+
+// // Call function to calculate sum and display in the browser
+// alert(`The sum of the numbers entered is ${totalSum(userInput.split(','))}`);
